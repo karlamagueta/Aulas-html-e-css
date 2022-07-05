@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+    <em>usando links para outros sites</em>
+    <p>Você pode acessar meu <a href="https://github.com/karlamagueta?tab=repositories" target="_blank" rel="external">repositório publico no Github</a></p>
+    <p>vc tbm pode acessar o <a href="https://youtube.com/cursoemvideo" target="_blank" rel="external">canal do youtube do Guanabara </a></p>
+    <!-- O problema é que o usuario nao volta para o seu site assim, então o ideal é criar o link para nova aba usando o target blank, e sempre indicar no REL que o link é externo-->
+    <h1>Links Internos</h1>
+    <em>usando Links dentro do mesmo site</em>
+    <p>Esta é a primera Pagina do site. <br>
+        Se quiser, acesse a <a href="pag002.html" rel="next">segunda pagina aqui.</a>
+    </p>
+    <h2>Aqui vc tbm pode acessar a <a href="noticias/pag003.html" target="_self" ="next">pagina de notícias</a></h2>
+    <h2>Fazendo download</h2>
+    <ul>
+        <li><a href="livro/CMI - Hse sale contract.pdf" download="livro/CMI - Hse sale contract.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="#">Livro compactado em zip</a></li>
+        <!-- link com # significa q o link esta vazio-->
+    </ul>
+</body>
+</html>
