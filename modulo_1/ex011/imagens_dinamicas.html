@@ -14,7 +14,21 @@
         <source media="(max-width: 750px )" srcset="imagens/P.jpg" type="image/jpg">
         <source media="(max-width: 1050px)" srcset="imagens/M.jpg" type="image/jpg">
         <img src="imagens/G.jpg" alt="imagem Flexivel">
-
     </picture>
+    <hr>
+    <h1>Carregando Medias de Audio</h1>
+    <audio src="../ex011/midia/0002969.mp3" controls autoplay></audio>
+    <!-- OU outra opção é usando a forma abaixo:-->
+    <audio preload="metadata" loop>
+        <!--E coloca todos os sources separadamente para poderem rodar, de forma que o primeiro da lista será o primeiro, se nao rodar, tenta a proxima forma de audio, e etc. -->
+        <source srcset="../ex011/midia/0002969.mp3" type="audio/mpeg">
+        <source srcset="../ex011/midia/0002969.wav" type="audio/wav">
+        <source srcset="../ex011/midia/0002969.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não é compatível com esse tipo de mídia. <a href="midia/0002969.mp3">Clique aqui para baixar o MP3</a></p>
+    </audio>
+    <h1>Partiu Videos!!!</h1>
+    <p>Bora inserir videos na parada</p>
+    <source media="(max-width: 800px)" srcset="">
+    <video src="midia/video1.mp4" controls ></video>
 </body>
 </html>
