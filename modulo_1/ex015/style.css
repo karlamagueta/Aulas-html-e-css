@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* quando tem @ no início significa que é uma regra*/
+<style>
+        body{
+            font-family: monospace;
+            font-stretch: semi-condensed;
+            font-size: 18px;
+        }
+        h1{ color: rgb(94, 23, 160);
+            background-color: rgb(217, 175, 255);
+        }
+        h2{
+            color: cadetblue;
+            background-color: rgb(253, 188, 221);
+        }
+        p{
+            color: blue;
+            text-align: justify;
+        }
+    </style>
