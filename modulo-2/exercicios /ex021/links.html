@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+
+        /*    SELETORES PERSONALIZADOS 
+        
+            # - id
+            . class
+            : pseudo-class
+            :: pseudo-element
+            > children 
+        */
+
+
+
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: blueviolet;
+        }
+        a:visited {
+            color: rgb(78, 83, 225);
+        }
+        a:hover{
+            color: darkcyan;
+        }
+        .especial::before {
+            content: '☆';
+        }
+        .especial::after {
+            content: '☆';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://carbon.now.sh" class="especial" target="_blank">Carbon</a></li>
+        <li><a href="https://dontstarve.fandom.com/wiki/Electric_Milk">Eletric Milk</a></li>
+        <li><a href="https://dontstarve.fandom.com/wiki/Recipe_Card?so=search#articleComments">Recipe Card</a></li>
+    </ul>
+</body>
+</html>
