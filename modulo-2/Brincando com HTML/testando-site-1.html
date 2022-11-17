@@ -16,26 +16,33 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
         }
-        main{
-            background-color: rgb(237, 249, 249);
-            padding: 20px;
-            margin: 20px;
-            text-align: center;
-            ;
-        }
-        nav{
-        nav > ul { 
-            display: none;
-        }
-        nav:hover > ul{
+        .menu {
             display: flex;
-            flex-direction: column;
+            text-align: justify;
+            text-decoration: none;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            
+
         }
-        section > aside{
-            font-style: italic;
-            text-align: right;
+        .menu li a {
+            text-decoration: none;
         }
+        .menu ul li {
+            display: none;
+            position: absolute;
+            text-decoration: none;
+            background-color: rgb(185, 176, 227);
+            padding: 20px;
         }
+        .menu:hover li {
+            display: flex;
+            position: relative;
+            
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -43,36 +50,30 @@
         <h1> KARLA </h1>
     </header>
 
-    <main>
-        <nav>
-            <a href="#"> Calendarios </a>
+        <nav class="menu">
+            <li><a href="#"> Calendários </a></li>
                 <ul>
-                    Calendarios 2023
-                    Calendarios 2024
-                    Calendarios 2025
-
+                    <li>Calendario 2023</li>
+                    <li>Calendario 2024</li>
+                    <li>Calendario 2025</li>
                 </ul>
-            <a href="#"> Cartões </a>
-            <a href="#"> Guias de Valor </a>
+            <li><a href="#"> Calendários </a></li>
+                <ul>
+                    <li>Cartões de Natal</li>
+                    <li>Cartões de Ano Novo</li>
+                </ul>
+            <li><a href="#"> Guias de Valor </a></li>
+            <li><a href="#"> Sobre Nós </a></li>
         </nav>
         <div>
             <ul>
 
             </ul>
         </div>
+    </header>
+    <main>
+
     </main>
-
-        <section>
-            <article>
-                A fotografia é uma das maiores invenções da humanidade, pois elas são inesquecíveis.
-
-                No espaço de uma fração de segundo, o fotógrafo consegue compartilhar o seu olhar com o mundo através de uma foto.
-                <aside>
-                    Fragmento de Texto do Blog AlbumPro
-                </aside>
-            </article>
-        </section>
-
     <footer>
 
     </footer>
