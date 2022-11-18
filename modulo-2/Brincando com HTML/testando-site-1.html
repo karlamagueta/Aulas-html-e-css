@@ -5,73 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testando</title>
-    <style>
-        body{
-            background-color: rgb(217, 217, 217);
-        }
-        header{
-            background-color: rgb(219, 255, 255);
-            text-align: center;
-            font-size: large;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-        }
-        .menu {
-            display: flex;
-            text-align: justify;
-            text-decoration: none;
-            position: relative;
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
-            
-
-        }
-        .menu li 
-        {
-            text-decoration: none;
-        }
-        .menu ul li {
-            display: none;
-            text-decoration: none;
-            position: absolute;
-            text-decoration: none;
-            background-color: rgb(185, 176, 227);
-            padding: 20px;
-        }
-        .menu:hover li {
-            display: flex;
-            position: relative;
-            text-decoration: none;
-            text-align: center;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> KARLA </h1>
-    </header>
+    <header class="header">
+        <a href="#"> Logo </a>
 
         <nav class="menu">
-            <li><a href="#"> Calendários </a></li>
-                <ul>
-                    <li>Calendario 2023</li>
-                    <li>Calendario 2024</li>
-                    <li>Calendario 2025</li>
+           <ul>
+            <li>
+                <a href="#">Calendários</a>
+                    <ul>
+                        <li>2023</li>
+                        <li>2024</li>
+                    </ul>
+            </li>
+            <li>
+                <a href="#">Cartões</a>
+                    <ul>
+                        <li>Natal</li>
+                        <li>Páscoa</li>
+                        <li>Atemporal</li>
                 </ul>
-            <li><a href="#"> Calendários </a></li>
-                <ul>
-                    <li>Cartões de Natal</li>
-                    <li>Cartões de Ano Novo</li>
-                </ul>
-            <li><a href="#"> Guias de Valor </a></li>
-            <li><a href="#"> Sobre Nós </a></li>
+            </li>
+            <li>
+                <a href="#">Sobre nós</a>
+            </li>
+           </ul>
+           
         </nav>
-        <div>
-            <ul>
-
-            </ul>
-        </div>
     </header>
     <main>
 
